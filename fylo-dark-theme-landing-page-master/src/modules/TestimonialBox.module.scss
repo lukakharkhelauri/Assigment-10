@@ -1,0 +1,35 @@
+.testimonialBox {
+    background-color:rgb(38, 48, 71);
+    padding: 20px;
+    margin-right: 20px; 
+    margin-top:200px;
+    width: 100px; 
+    height:200px;
+    flex: 1; 
+  }
+  
+  .testimonialText {
+    color: #ffffff; 
+    background-color:rgb(38, 48, 71);
+    font-size:20px;
+  }
+  
+  .authorInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px; 
+    background-color:rgb(38, 48, 71);
+  }
+  
+  .authorImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .authorName {
+    background-color:rgb(38, 48, 71);
+    color:white;
+  }

@@ -1,0 +1,59 @@
+$bgColor:rgb(33, 41, 60);
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .menuContainer {
+    display: flex;
+    gap: 20px;
+  
+    .menuItem {
+      color: white;
+      cursor: pointer;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: #ffc107;
+      }
+    }
+  }
+
+  .introContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .introText {
+    color: white;
+    font-size:23px;
+    max-width: 500px; 
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  .getStartedButton {
+    padding: 10px 20px;
+    width:300px;
+    height:50px;
+    background-color: rgb(65, 175, 208);; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #0056b3; 
+    } 
+  }
+
+  
+
+  

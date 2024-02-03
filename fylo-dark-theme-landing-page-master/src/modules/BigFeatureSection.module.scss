@@ -1,0 +1,39 @@
+.bigFeatureSection {
+    margin-top:150px;
+    display: flex;
+    gap: 2px; 
+  }
+  
+  .leftSide {
+    flex: 1;
+  }
+  
+  .largeImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rightSide {
+    flex: 1;
+    padding: 20px; 
+  }
+
+  .largeImage{
+    width:70%;
+    margin-left:150px;
+  }
+
+  .rightSideTitle{
+    font-size:35px;
+    color:white;
+  }
+
+  .rightSideInfo{
+    font-size:25px;
+    color:white;
+  }
+
+  .infoSecondPart{
+    font-size:25px;
+    color:white;
+  }
